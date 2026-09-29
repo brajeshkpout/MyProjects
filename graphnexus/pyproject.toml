@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphnexus"
+version = "1.0.0"
+description = "A lightweight graph database with custom hash-based indexing, a binary file format, graph algorithms and a CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "networkx>=3.0", "numpy", "scipy"]
+
+[project.scripts]
+graphnexus = "graphnexus.cli:main"
+
+[tool.setuptools]
+packages = ["graphnexus"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
