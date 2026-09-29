@@ -1,0 +1,13 @@
+id,cat,subcat,maintenance
+AC_BR,Accessories,Bike Racks,No
+AC_BC,Accessories,Bottles and Cages,No
+AC_HE,Accessories,Helmets,No
+BI_MB,Bikes,Mountain Bikes,No
+BI_RB,Bikes,Road Bikes,No
+BI_TB,Bikes,Touring Bikes,No
+CL_GL,Clothing,Gloves,No
+CL_JE,Clothing,Jerseys,No
+CL_SH,Clothing,Shorts,No
+CO_PE,Components,Pedals,Yes
+CO_RF,Components,Road Frames,Yes
+CO_WH,Components,Wheels,Yes
